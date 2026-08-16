@@ -11,23 +11,23 @@ layers:
   - I
   - O
   - P
-  - {t: A, h: LEFT GUI}
-  - {t: S, h: LEFT ALT}
-  - {t: D, h: LCTRL}
-  - {t: F, h: LEFT SHIFT}
+  - A
+  - S
+  - D
+  - F
   - G
   - PAGE UP
   - H
-  - {t: J, h: RIGHT SHIFT}
-  - {t: K, h: RCTRL}
-  - {t: L, h: RIGHT ALT}
-  - {t: ;, h: RIGHT GUI}
+  - J
+  - K
+  - L
+  - ;
   - Z
   - X
   - C
   - V
   - B
-  - BT
+  - MUTE
   - PAGE DOWN
   - N
   - M
@@ -39,8 +39,8 @@ layers:
   - LEFT GUI
   - TAB
   - {t: SPACE, h: NUM}
-  - {t: SPACE, h: SYM}
-  - BACKSPACE
+  - LSHFT
+  - RSHFT
   - {t: BACKSPACE, h: SYM}
   - RCTRL
   NUM:
@@ -125,9 +125,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
-  - {type: held alternate}
+  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   MOUSE:
   - {t: ▽, type: trans}
@@ -199,7 +199,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
