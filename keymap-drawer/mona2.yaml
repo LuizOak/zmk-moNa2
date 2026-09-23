@@ -37,7 +37,7 @@ layers:
   - LCTRL
   - LALT
   - LEFT GUI
-  - TAB
+  - MOUSE
   - {t: SPACE, h: NUM}
   - {t: SPACE, h: SYM}
   - BACKSPACE
@@ -166,7 +166,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LCTRL
+  - {t: LCTRL, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
